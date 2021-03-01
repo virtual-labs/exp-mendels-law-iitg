@@ -1,1 +1,1 @@
-### Aim of the experiment
+### Mendel's Law

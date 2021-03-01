@@ -89,23 +89,36 @@
 
 
     const myQuestions = [{
-            question: "1.This is a sample question:", ///// Write the question inside double quotes
+            question: "1.Monohybrid cross is a cross involving parents differing in only ………….. trait.", ///// Write the question inside double quotes
             answers: {
-                a: "This is a sample answer A", ///// Write the option 1 inside double quotes
-                b: "This is a sample answer B", ///// Write the option 2 inside double quotes
+                a: "2", ///// Write the option 1 inside double quotes
+                b: "1", ///// Write the option 2 inside double quotes
+                c: "3",
+                d: "b",
             },
-            correctAnswer: "a" ///// Write the correct option inside double quotes
+            correctAnswer: "b" ///// Write the correct option inside double quotes
         },
 
     {
-      question: "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",  ///// Write the question inside double quotes
+      question: "2. Dihybrid involves …………………. Traits",  ///// Write the question inside double quotes
       answers: {
-        a: "<img src='images/1b.png'>",                  ///// Write the option 1 inside double quotes
-        b: "<img src='images/1a.png'>",                  ///// Write the option 2 inside double quotes
-        c: "<img src='images/1c.PNG'>",      },
-      correctAnswer: "c"                ///// Write the correct option inside double quotes
+        a: "3",                  ///// Write the option 1 inside double quotes
+        b: "2",                  ///// Write the option 2 inside double quotes
+        c: "4", 
+        d: "5", 
+      },
+      correctAnswer: "b"                ///// Write the correct option inside double quotes
     },
-
+   {
+      question: "3. If the trait is dominant, it will be expressed in ………………… generations.",  ///// Write the question inside double quotes
+      answers: {
+        a: "few",                  ///// Write the option 1 inside double quotes
+        b: "all",                  ///// Write the option 2 inside double quotes
+        c: "some", 
+        d: "1", 
+      },
+      correctAnswer: "b"                ///// Write the correct option inside double quotes
+    },
 
         
     ];
