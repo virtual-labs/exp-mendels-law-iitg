@@ -1,1 +1,1 @@
-## Experiment name
+## Mendel's Law

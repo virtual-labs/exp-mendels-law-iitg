@@ -7,30 +7,30 @@
 <script type="text/javascript" src="js/jquery.js"></script>
 <style type="text/css">
 	
-	#div1 {width:30px;height:70px; margin-left: 7.5%; margin-top: 14%; float: left; position:static;}
+	#div1 {width:30px;height:70px;border:1px solid #aaaaaa; margin-left: 7.5%; margin-top: 14%; float: left; position:static;}
     
   
     #mainimg{
-        background-image: url("image/demos.jpg");
-        background-repeat: no-repeat;
+    	background-image: url("image/demos.jpg");
+    	background-repeat: no-repeat;
         height: 900px;
         float: left;
-        width: 970px;
-        position: fixed;
+        width: 100%;
+        position: relative;
         
     }
     body{
     	height: 100%;
     }
     .fdiv{
-        margin-left: 55%;
-        margin-top: 9%;
+        margin-top: 5%;
+        margin-left: 29%;
     }
 
     .sdiv{
         position: fixed;
-        margin-top: 155px;
-        margin-left: 490px;
+        margin-top: 8%;
+        margin-left: 25%;
 
     }
 
@@ -42,18 +42,8 @@
         margin-right: 3%;
         
     }
-    #drag1{
-        padding-left: 40%;
-        margin-top: -15%;
-    }
+
     
-    #drag2 {
-    float: left;    
-    visibility: hidden;
-    overflow: hidden;
-    /*width: 0px;
-    height: 0px;*/
-}
 
 </style>
 
@@ -80,13 +70,13 @@ function change()
     
     var x = document.getElementById("mainval").value;
 
-    if(x=="RrYY")
+    if(x=="RrYy")
     {  
 
      //location.href = "index.html";
      //window.location("index.html");
      //alert("hello");
-     window.location.href='index1.html';
+     window.location.href='index3.html';
     //document.getElementById('drag1').style.display='none';
     
     //document.getElementById("drag2").style.visibility = "visible";
@@ -111,18 +101,16 @@ function change()
 <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 
 <div class="mainimg" id="demo">
-    <img id="drag1" src="image/img1.jpg" draggable="true" ondragstart="drag(event)">
+
+<img id="drag2" src="image/img3.jpg" draggable="true" ondragstart="drag(event)">
 </div>
 <div class="fdiv">
-    <input type="text" name="mainval" id="mainval"> <input type="button" onclick="change()" value="Next">
+<input type="text" name="mainval" id="mainval"> <input type="button" onclick="change()" value="Next">
 </div>
 
 <div class="sdiv">
-    <input type="text" name="fname" style="width: 20px;">
-    <input class="inp" type="text" name="fname" style="width: 20px; margin-left: 20px;">
-    <input class="inp" type="text" name="fname" style="width: 20px; margin-left: 20px;">
-    <input class="inp" type="text" name="fname" style="width: 20px; margin-left: 20px;">
-    <button type="button" style="margin-left: 70%; margin-top: 10px;">Check</button> 
+<input type="text" name="fname" style="width: 20px;"><input type="text" name="fname" style="width: 20px; margin-left: 14px;"><input type="text" name="fname" style="width: 20px; margin-left: 15px;"><input type="text" name="fname" style="width: 20px; margin-left: 19px;">   <button type="button" style="margin-left: 20%;">Check</button> 
+
 </div>
 
 </div>
