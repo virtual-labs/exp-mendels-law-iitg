@@ -1,2 +1,2 @@
-### Mendel's Law
+#### Mendel's Law
 Independent assortment of genetic characters
