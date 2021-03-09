@@ -1,4 +1,3 @@
-### Procedure
 
 1. Study Dihybrid cross and Punnett square from theory and complete the square in the simulator by correctly inserting the gamete produced from the combination given below the incomplete square.
  
