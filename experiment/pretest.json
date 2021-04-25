@@ -1,1 +1,28 @@
-[{"question":"1.Genes are located in ?","answers":{"a":"Blood","b":"Chromosomes","c":"Alleles","d":"Bones"},"correctAnswer":"c"},{"question":"2.The phenotypic ratio of F2 generation is?","answers":{"a":"1:2:3","b":"3:2:1","c":"2:3:1","d":"3:1:2"},"correctAnswer":"b"},{"question":"3.Allelic pair is the combination of …………………… alleles which comprise the gene pair.","answers":{"a":"5","b":"9","c":"2","d":"1"},"correctAnswer":"c"}]
+[{
+	"question": "1.Genes are located in ?",
+	"answers": {
+		"a": "Blood",
+		"b": "Chromosomes",
+		"c": "Alleles",
+		"d": "Bones"
+	},
+	"correctAnswer": "c"
+}, {
+	"question": "2.The phenotypic ratio of F2 generation is?",
+	"answers": {
+		"a": "1:2:3",
+		"b": "3:2:1",
+		"c": "2:3:1",
+		"d": "3:1:2"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "3.Allelic pair is the combination of …………………… alleles which comprise the gene pair.",
+	"answers": {
+		"a": "5",
+		"b": "9",
+		"c": "2",
+		"d": "1"
+	},
+	"correctAnswer": "c"
+}]
