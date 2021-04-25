@@ -1,0 +1,160 @@
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<style type="text/css">
+	
+	#div1 {width:30px;height:70px;border:1px solid #aaaaaa; margin-left: 7.5%; margin-top: 14%; float: left; position:static;}
+    
+  
+    #mainimg{
+    	background-image: url("image/demos.jpg");
+    	background-repeat: no-repeat;
+        height: 900px;
+        float: left;
+        width: 100%;
+        position: relative;
+        
+    }
+    body{
+    	height: 100%;
+    }
+    .fdiv{
+        margin-top: 5%;
+        margin-left: 29%;
+    }
+
+    .sdiv{
+        position: fixed;
+        margin-top: 8%;
+        margin-left: 25%;
+
+    }
+
+    .mainimg
+    {
+        
+        width: 50%;
+        margin-top: 6%;
+        margin-right: 3%;
+        
+    }
+
+    
+
+</style>
+
+<script>
+function allowDrop(ev)
+{
+ev.preventDefault();
+}
+
+function drag(ev)
+{
+ev.dataTransfer.setData("Text",ev.target.id);
+}
+
+function drop(ev)
+{
+ev.preventDefault();
+var data=ev.dataTransfer.getData("Text");
+ev.target.appendChild(document.getElementById(data));
+}
+
+function change()
+{
+    
+    var x = document.getElementById("mainval").value;
+
+    if(x=="rryy")
+    {  
+
+     //location.href = "index.html";
+     //window.location("index.html");
+     alert("The Punnett square is completed. Now enter the phenotypic ratio of the dihybrid cross.");
+     //window.location.href='index4.html';
+    //document.getElementById('drag1').style.display='none';
+    
+    //document.getElementById("drag2").style.visibility = "visible";
+
+    
+    }
+    else
+    {
+
+        alert("enter a correct value");
+    } 
+
+}
+    function check()
+{
+    alert("hello");
+    var a = document.getElementById("r1").value;
+    var b = document.getElementById("r2").value;
+    var c = document.getElementById("r3").value;
+    var d = document.getElementById("r4").value;
+
+
+    if((a==9) && (b==3) && (c==3) && (d==1))
+    {  
+
+     alert("Phenotypic ratio is correct");
+     }
+    else
+    {
+
+        alert("enter a correct value");
+    } 
+
+}
+</script>
+
+</head>
+
+<body >
+
+
+<div id="mainimg" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+<div class="mainimg" id="demo">
+
+<img id="drag2" src="image/img5.jpg" draggable="true" ondragstart="drag(event)">
+</div>
+<div class="fdiv">
+<input type="text" name="mainval" id="mainval"> <input type="submit" onclick="change()" value="Next">
+</div>
+
+<div class="sdiv">
+<input type="text" name="r1" id="r1" style="width: 20px;"><input type="text" name="r2" id="r2"style="width: 20px; margin-left: 14px;"><input type="text" name="r3" id="r3" style="width: 20px; margin-left: 15px;"><input type="text" name="r4" id="r4" style="width: 20px; margin-left: 19px;">   <input type="submit" onclick="check()" style="margin-left: 20%;" value="Check"> 
+
+</div>
+
+</div>
+
+
+
+
+<div id="divmm">
+
+
+
+</div>
+<!--<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<img id="drag1" src="demo.jpg" draggable="true"
+ondragstart="drag(event)" width="336" height="69">
+
+
+<div id="div2" ondrop="drop(event)"
+ondragover="allowDrop(event)"></div>
+<img id="drag1" src="shape1.jpg" draggable="true"
+ondragstart="drag(event)" width="336" height="69">-->
+
+</body>
+
+</html>
