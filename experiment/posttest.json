@@ -1,1 +1,28 @@
-[{"question":"1.Monohybrid cross is a cross involving parents differing in only ………….. trait.","answers":{"a":"2","b":"1","c":"3","d":"b"},"correctAnswer":"b"},{"question":"2. Dihybrid involves …………………. Traits","answers":{"a":"3","b":"2","c":"4","d":"5"},"correctAnswer":"b"},{"question":"3. If the trait is dominant, it will be expressed in ………………… generations.","answers":{"a":"few","b":"all","c":"some","d":"1"},"correctAnswer":"b"}]
+[{
+	"question": "1.Monohybrid cross is a cross involving parents differing in only ………….. trait.",
+	"answers": {
+		"a": "2",
+		"b": "1",
+		"c": "3",
+		"d": "b"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "2. Dihybrid involves …………………. Traits",
+	"answers": {
+		"a": "3",
+		"b": "2",
+		"c": "4",
+		"d": "5"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "3. If the trait is dominant, it will be expressed in ………………… generations.",
+	"answers": {
+		"a": "few",
+		"b": "all",
+		"c": "some",
+		"d": "1"
+	},
+	"correctAnswer": "b"
+}]
